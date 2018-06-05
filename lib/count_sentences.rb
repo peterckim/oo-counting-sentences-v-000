@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     array = self.split(/[.?!]/)
-    array.count - 1
+    array.count
   end
 end
